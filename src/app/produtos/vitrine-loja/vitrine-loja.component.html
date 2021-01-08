@@ -1,4 +1,6 @@
 <div class="container main-container">
+    <h1>Produtos</h1>
+    <hr>
     <div class="row text-center">
         <div *ngFor="let produto of produtos" class="col-md-4" style="padding-bottom: 30px;">
             <div class="card h-100">
@@ -30,7 +32,10 @@
 
                 <div class="card-footer">
                     <a href="#" class="btn btn-primary">
-                        <span class="fa fa-shopping-cart"></span> Comprar
+                        <span class="fa fa-shopping-cart"></span> Editar
+                    </a>&nbsp;
+                    <a href="#" class="btn btn-danger">
+                        <span class="fa fa-shopping-cart"></span> Deletar
                     </a>
                 </div>
             </div>
